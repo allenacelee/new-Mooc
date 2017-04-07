@@ -3,78 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="css/topCss.css" rel="stylesheet" type="text/css"/>
     <style>
-        #top {
-            display: flex;
-            flex-direction: row;
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 8%;
-            background-color: #24292e;
-            color: #ffffff;
-            border-radius: 5px;
-        }
-
-        #webName {
-            font-family: 微软雅黑;
-            font-size: 25px;
-            width: 15%;
-            margin-left: 1%;
-            display: flex;
-            align-items: center;
-        }
-
-        #webComponent {
-            width: 54%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #customInfo {
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            width: 30%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        #webComponentInfo {
-            display: flex;
-            flex-direction: row;
-            list-style:none;
-            width: 100%;
-            height: 100%;
-            margin-top: 20px;
-        }
-        li {
-            /*border: 1px solid white;*/
-            width: 12%;
-            height: 100%;
-            margin: 3px;
-            background-color: #a20815;
-            border-radius: 5px;
-            border-right: 2px solid white;
-            border-left: 2px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: 微软雅黑;
-            font-size: 20px;
-        }
-        li:hover{
-            background-color: #24292e;
-            cursor:pointer;             /*鼠标经过改变形状*/
-            border: 2px solid white;
-            border-bottom: 0px;
-            border-top: 1px solid white;
-            color: #a20815;
-        }
-
         a {
             text-decoration: none
         }
@@ -86,6 +16,40 @@
         a:visited {
             color: #ffffff;
         }
+
+        #copyright {
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+        }
+
+        #copyInfo {
+            background-color: #24292e;
+            color: #ffffff;
+            border-radius: 10px;
+            width: 25%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-family: 楷体;
+            font-size: 17px;
+        }
+        #copyAddr {
+           /* border: 1px solid red;*/
+            width: 75%;
+            padding-left: 10px;
+            color: #24292e;
+            font-family: 黑体;
+        }
+        #copyInfoTop {
+            display: flex;
+            justify-content: center;
+        }
+        #copyInfoBottom {
+            display: flex;
+            justify-content: flex-end;
+        }
     </style>
 </head>
 <body>
@@ -94,7 +58,7 @@
     <div id="top">
         <!--网站信息显示-->
         <div id="webName">
-            编译原理慕课网
+            编译原理<span style="color: #a20815">慕课网</span>
         </div>
         <!--选择功能区-->
         <div id="webComponent">
@@ -182,8 +146,16 @@
         <p>...</p>
     </div>
     <!--网站版权信息显示-->
-    <div>
-
+    <div id="copyright">
+        <div id="copyInfo">
+            <p id="copyInfoTop">为您量身定制的编译原理课程！</p>
+            <p id="copyInfoBottom">----编译原理<span style="color: #a20815">慕课网</span></p>
+        </div>
+        <div id="copyAddr">
+            <p>联系邮箱：interesting@amooc.com</p>
+            <p>网站地址：北京市海淀区永嘉北路6号</p>
+            <p>CopyRight&copy;amooc&nbsp;&nbsp;&nbsp;&nbsp;2017</p>
+        </div>
     </div>
 </div>
 </body>
