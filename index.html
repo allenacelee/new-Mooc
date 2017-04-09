@@ -2,7 +2,8 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>编译原理慕课网站</title>
+    <link rel="shortcut icon" href="img/title.ico">
     <link href="css/topCss.css" rel="stylesheet" type="text/css"/>
     <link href="css/bottomCss.css" rel="stylesheet" type="text/css"/>
     <style>
@@ -16,6 +17,81 @@
 
         a:visited {
             color: #ffffff;
+        }
+
+        #mainPage {
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #mainInfo {
+            /*border: 1px solid red;*/
+            border-radius: 10px;
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-direction: row;
+            background-image: url("img/Allennaur.jpg");
+            background-size: cover;
+        }
+        #mainDetail{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid red;
+            width: 100%;
+            /*height: 2000px;*/
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #firstArea {
+            border: 1px solid red;
+            width: 95%;
+            height: 400px;
+            margin: 10px;
+        }
+        #secondArea {
+            border: 1px solid blue;
+            width: 95%;
+            height: 400px;
+            margin: 10px;
+        }
+        #thirdArea {
+            border: 1px solid green;
+            width: 95%;
+            height: 400px;
+            margin: 10px;
+        }
+        #fourthArea {
+            border: 1px solid orange;
+            width: 95%;
+            height: 400px;
+            margin: 10px;
+        }
+        #mainFocus {
+            border: 1px solid gray;
+            width: 95%;
+            height: 200px;
+            margin: 10px;
+        }
+        #focusItems {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .items {
+            background-color: #24292e;
+            width: 20%;
+            height: 160px;
+            border: 0px;
+        }
+        .items:hover {
+            position: relative;
+            border: 0px;
+            top: -10px;
         }
     </style>
 </head>
@@ -51,66 +127,34 @@
         </div>
     </div>
     <!--详细信息显示区域-->
-    <div>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
+    <div id="mainPage">
+        <div id="mainInfo">
+            <div>
+
+            </div>
+        </div>
+        <div id="mainDetail">
+            <div id="mainFocus">
+                <ul id="focusItems">
+                    <li class="items"></li>
+                    <li class="items"></li>
+                    <li class="items"></li>
+                    <li class="items"></li>
+                </ul>
+            </div>
+            <div id="firstArea">
+                First
+            </div>
+            <div id="secondArea">
+                Second
+            </div>
+            <div id="thirdArea">
+                Third
+            </div>
+            <div id="fourthArea">
+                fourth
+            </div>
+        </div>
     </div>
     <!--网站版权信息显示-->
     <div id="copyright">
@@ -121,7 +165,7 @@
         <div id="copyAddr">
             <p>联系邮箱：interesting@amooc.com</p>
             <p>网站地址：北京市海淀区永嘉北路6号</p>
-            <p>CopyRight&copy;amooc&nbsp;&nbsp;&nbsp;&nbsp;2017</p>
+            <p>CopyRight&copy;版权所有&nbsp;&nbsp;&nbsp;&nbsp;2017</p>
         </div>
     </div>
 </div>
