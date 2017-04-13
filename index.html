@@ -6,6 +6,7 @@
     <link rel="shortcut icon" href="img/title.ico">
     <link href="css/topCss.css" rel="stylesheet" type="text/css"/>
     <link href="css/bottomCss.css" rel="stylesheet" type="text/css"/>
+    <link href="css/mainPageCss.css" rel="stylesheet" type="text/css"/>
     <style>
         a {
             text-decoration: none
@@ -17,81 +18,6 @@
 
         a:visited {
             color: #ffffff;
-        }
-
-        #mainPage {
-            margin-top: 5%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        #mainInfo {
-            /*border: 1px solid red;*/
-            border-radius: 10px;
-            width: 100%;
-            height: 400px;
-            display: flex;
-            flex-direction: row;
-            background-image: url("img/Allennaur.jpg");
-            background-size: cover;
-        }
-        #mainDetail{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border: 1px solid red;
-            width: 100%;
-            /*height: 2000px;*/
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        #firstArea {
-            border: 1px solid red;
-            width: 95%;
-            height: 400px;
-            margin: 10px;
-        }
-        #secondArea {
-            border: 1px solid blue;
-            width: 95%;
-            height: 400px;
-            margin: 10px;
-        }
-        #thirdArea {
-            border: 1px solid green;
-            width: 95%;
-            height: 400px;
-            margin: 10px;
-        }
-        #fourthArea {
-            border: 1px solid orange;
-            width: 95%;
-            height: 400px;
-            margin: 10px;
-        }
-        #mainFocus {
-            border: 1px solid gray;
-            width: 95%;
-            height: 200px;
-            margin: 10px;
-        }
-        #focusItems {
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-        }
-        .items {
-            background-color: #24292e;
-            width: 20%;
-            height: 160px;
-            border: 0px;
-        }
-        .items:hover {
-            position: relative;
-            border: 0px;
-            top: -10px;
         }
     </style>
 </head>
@@ -107,16 +33,24 @@
         <div id="webComponent">
             <ul id="webComponentInfo">
                 <li>
-                    介绍
+                    <a href="#firstArea">
+                        介绍
+                    </a>
                 </li>
                 <li>
-                    课程
+                    <a href="#secondArea">
+                        课程
+                    </a>
                 </li>
                 <li>
-                    测评
+                    <a href="#thirdArea">
+                        测评
+                    </a>
                 </li>
                 <li>
-                    笔记
+                    <a href="#fourthArea">
+                        笔记
+                    </a>
                 </li>
             </ul>
         </div>
@@ -165,7 +99,7 @@
         <div id="copyAddr">
             <p>联系邮箱：interesting@amooc.com</p>
             <p>网站地址：北京市海淀区永嘉北路6号</p>
-            <p>CopyRight&copy;版权所有&nbsp;&nbsp;&nbsp;&nbsp;2017</p>
+            <p>CopyRight&copy;版权所有&nbsp;&nbsp;&nbsp;&nbsp;2017--</p>
         </div>
     </div>
 </div>

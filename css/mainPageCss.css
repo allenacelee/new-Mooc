@@ -1,0 +1,75 @@
+#mainPage {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainInfo {
+    /*border: 1px solid red;*/
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-image: url("../img/top.jpg");
+    background-size: cover;
+}
+#mainDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    width: 100%;
+    /*height: 2000px;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#firstArea {
+    border: 1px solid red;
+    width: 95%;
+    height: 400px;
+    margin: 20px;
+    padding-top: 40px;
+}
+#secondArea {
+    border: 1px solid blue;
+    width: 95%;
+    height: 400px;
+    margin: 10px;
+}
+#thirdArea {
+    border: 1px solid green;
+    width: 95%;
+    height: 400px;
+    margin: 10px;
+}
+#fourthArea {
+    border: 1px solid orange;
+    width: 95%;
+    height: 400px;
+    margin: 10px;
+}
+#mainFocus {
+    border: 1px solid gray;
+    width: 95%;
+    height: 200px;
+    margin: 10px;
+}
+#focusItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.items {
+    background-color: #24292e;
+    width: 20%;
+    height: 160px;
+    border: 0px;
+}
+.items:hover {
+    position: relative;
+    border: 0px;
+    top: -10px;
+}
